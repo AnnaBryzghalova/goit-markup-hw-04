@@ -317,8 +317,8 @@ img {
   margin: 0 16px;
 }
 
-.social-networks-item :hover,
-.social-networks-item :focus {
+.social-networks-link:hover,
+.social-networks-link:focus {
   background-color: #404bbf;
 }
 
@@ -346,11 +346,6 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-list :hover,
-.portfolio-list :focus {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
@@ -358,7 +353,8 @@ img {
 
 .portfolio-item :hover,
 .portfolio-item :focus {
-  box-shadow: none;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-description {
@@ -414,7 +410,7 @@ img {
   margin: 0;
 }
 
-.sn-item-footer :hover,
-.sn-item-footer :focus {
+.sn-link-footer:hover,
+.sn-link-footer:focus {
   background-color: #31d0aa;
 }
