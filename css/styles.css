@@ -76,6 +76,7 @@ img {
 
 .center-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .item-photo {
@@ -108,7 +109,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 8px;
 }
 
 /* header */
@@ -279,10 +279,6 @@ img {
   margin-bottom: 8px;
 }
 
-.benefits-icon {
-  margin: 24px auto;
-}
-
 /* team */
 
 .team {
@@ -386,7 +382,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .portfolio-card-text {
+.portfolio-item:hover .portfolio-card-text {
   transform: translateY(0%);
 }
 
@@ -435,11 +431,6 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
-
-.footer-social-media {
-  display: flex;
-  flex-direction: column;
 }
 
 .sn-footer {
